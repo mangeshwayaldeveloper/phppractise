@@ -9,11 +9,18 @@ if(!$conn) {
 }
 echo "Successfully Connected";
 
-$sql="create databse mydb";
+$sql="CREATE DATABASE empl";
 mysqli_query($conn,$sql);
 
-$table1="create table student";
+// Insert data
+$sql = "INSERT INTO emp (name, salary) VALUES ('dy patil', 69000)";
 
+
+if (mysqli_query($conn, $sql)) {
+    echo 'Data inserted successfully<br>';
+} else {
+    echo 'Error inserting data: ' . mysqli_error($conn) . '<br>';
+}
 
 
 mysqli_close($conn)
