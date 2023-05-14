@@ -10,3 +10,6 @@ echo "The total of the marks=".$sum."<br>";
 echo "Your Percentage is=".$per."%";
 
 ?>
+
+
+
