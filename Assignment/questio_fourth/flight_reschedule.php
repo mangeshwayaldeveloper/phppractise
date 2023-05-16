@@ -14,20 +14,6 @@
                 <h4>Flight Booking</h4>
                 <span class="text-muted">Please make the payment to start enjoying all the features of our premium plan as soon as possible</span>
             </div>
-            <div class="col-12">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Roundtrip" value="option1">
-                    <label class="form-check-label" for="Roundtrip">Roundtrip</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Oneway" value="option2">
-                    <label class="form-check-label" for="Oneway">One way</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MultiCity" value="option3">
-                    <label class="form-check-label" for="MultiCity">Multi-City</label>
-                </div>
-            </div>
             <div class="col-lg-6 col-md-12">
                 <div class="form-floating">
                     <input type="text" class="form-control" placeholder="FLYING FROM">
@@ -86,8 +72,8 @@
                 </div>
             </div>
             <div class="col-12 mt-4">
-                <button class="btn btn-secondary text-uppercase" type="button">Close</button>
-                <button class="btn btn-primary text-uppercase" type="button">SHOWN FLIGHTS<i class="fa fa-plane ms-3"></i></button>
+                <button class="btn btn-primary text-uppercase" type="button">Update Dates<i
+                        class="fa fa-plane ms-3"></i></button>
             </div>
         </div>
     </div>
