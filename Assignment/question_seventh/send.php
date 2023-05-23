@@ -4,7 +4,7 @@
 
 //require 'PHPMailer/PHPMailerAutoload.php';
 // Create a new PHPMailer instance
-$mail = new PHPMailer;
+//$mail = new PHPMailer;
 
 // Set SMTP server details
 $mail->isSMTP();
