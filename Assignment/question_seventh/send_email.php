@@ -14,7 +14,7 @@
     <input type="text" name="subj"><br><br>
     <label style="margin-left: 10px">Enter a message</label>
     <input type="text" name="msg"><br><br>
-    <input type="submit" name="sub" style="margin-left: 150px">
+    <input type="submit" name="sbt" style="margin-left: 150px">
 </form>
 </body>
 
