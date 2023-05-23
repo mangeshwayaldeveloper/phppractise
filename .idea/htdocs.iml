@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/myfile/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
       <sourceFolder url="file://$MODULE_DIR$/myfile/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
       <sourceFolder url="file://$MODULE_DIR$/myfile/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment/question_seventh/PHPMailer-master/src" isTestSource="false" packagePrefix="PHPMailer\PHPMailer\" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment/question_seventh/PHPMailer-master/test" isTestSource="true" packagePrefix="PHPMailer\Test\" />
       <excludeFolder url="file://$MODULE_DIR$/myfile/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/myfile/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/myfile/vendor/dflydev/dot-access-data" />
