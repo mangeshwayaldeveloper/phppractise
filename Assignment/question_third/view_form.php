@@ -45,7 +45,7 @@ if ($result->num_rows>0){
         $LastName=$row["lname"];
         $courseName=$row["course"];
         $collegeName=$row["college"];
-        echo "<h4>Student Record $count</h4><br>";
+        echo "<h4>Student Record</h4><br>";
         echo "First Name: " . $firstName . "<br>";
         echo "Last Name: " . $LastName . "<br>";
         echo "Course: " . $courseName . "<br>";

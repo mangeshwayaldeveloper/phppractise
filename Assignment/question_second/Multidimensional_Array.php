@@ -5,6 +5,7 @@ $ma=array(
     array("MBA-DM",60,40),
     array("MBA-HR",100,60)
 );
+
 echo "Studnet Attendance <br>";
 echo $ma[0][0]." Total Students-".$ma[0][1]." Present ".$ma[0][2]."<br>";
 echo $ma[1][0]." Total Students-".$ma[1][1]." Present ".$ma[1][2]."<br>";

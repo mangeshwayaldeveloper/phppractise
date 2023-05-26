@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1>Login Form</h1>
-<form action="login.php" method="post">
+<form action="userDetails.php" method="post">
     <label for="username">Username:</label>
     <input type="text" name="username" id="username">
     <label for="password">Password:</label>
@@ -14,3 +14,13 @@
 </form>
 </body>
 </html>
+<?php
+session_start();
+if(isset($_SESSION['name'])>300){
+if((time()-$_SESSION['loginTime'])>300){
+    header('location:logout.php');
+}
+}else{
+    header('location:login_form.php');
+}
+?>
