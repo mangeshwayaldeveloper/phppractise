@@ -1,6 +1,7 @@
 {
     "require": {
         "phpmailer/phpmailer": "^6.8",
-      "ext-readline": "*"
+      "ext-readline": "*",
+      "ext-mysqli": "*"
     }
 }

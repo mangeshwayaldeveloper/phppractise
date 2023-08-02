@@ -1,7 +1,7 @@
 <?php
 session_start();
-$_SESSION['username']="i am mangesh";
-$_SESSION['userID']='007';
+$_SESSION['username']="i am vedika";
+$_SESSION['userID']='545';
 ?>
 <?php
 $username=$_SESSION['username'];

@@ -12,8 +12,8 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com'; // Replace with your SMTP server
 $mail->SMTPAuth = true;
-$mail->Username = 'mangeshwayaleducational@gmail.com'; // Replace with your email address
-$mail->Password = 'gxoknmdqqxodmlil'; // Replace with your email password
+$mail->Username = 'vedpatil6611@gmail.com'; // Replace with your email address
+$mail->Password = 'cwuehnhyaljkfxnx'; // Replace with your email password
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
@@ -21,7 +21,7 @@ $mail->Port = 587;
 $to=$_POST['mail'];
 $sub=$_POST['subj'];
 $message=$_POST['msg'];
-$mail->setFrom('mangeshwayaleducational@gmail.com', 'Mangesh wayal');
+$mail->setFrom('vedpatil6611@gmail.com', 'Vedika Patil');
 $mail->addAddress($to, 'Hello');
 
 // Email content
